@@ -1,0 +1,12 @@
+hr {
+    width: 250px;
+    border-top: 2px solid #999999;
+}
+
+section {
+    min-height: 550px;
+}
+
+.portfolio {
+    background-color: #eee;
+}

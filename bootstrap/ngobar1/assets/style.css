@@ -1,3 +1,12 @@
+html {
+    position: relative;
+}
+
+body {
+    margin-bottom: 100px;
+}
+
+
 hr {
     width: 250px;
     border-top: 2px solid #999999;
@@ -9,4 +18,12 @@ section {
 
 .portfolio {
     background-color: #eee;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 100px;
+    background-color: #999999;
 }

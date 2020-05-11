@@ -15,3 +15,10 @@ $('.pagescroll').on('click', function (j) {
     j.preventDefault();
 
 });
+
+// paralax
+$(window).scroll(function () {
+    var wScroll = $(this).scrollTop();
+
+
+});

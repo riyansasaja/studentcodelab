@@ -18,6 +18,23 @@ body {
     width: 150px;
 }
 
+.pkiri,
+.pkanan {
+    opacity: 0;
+    transform: translate(-50px, 0);
+    transition: 1s;
+}
+
+.pkanan {
+    transform: translate(50px, 0);
+}
+
+.pkiri.pmuncul,
+.pkanan.pmuncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
 
 hr {
     width: 250px;

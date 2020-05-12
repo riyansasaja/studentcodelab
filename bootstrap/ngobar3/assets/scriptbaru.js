@@ -17,11 +17,19 @@ $('.pagescroll').on('click', function (j) {
 });
 
 // paralax
+// about
+
+$(window).on('load', function () {
+    $('.pkiri').addClass('pmuncul');
+    $('.pkanan').addClass('pmuncul');
+});
+
 $(window).scroll(function () {
     var wScroll = $(this).scrollTop();
 
+    // jumbotron
     $('.jumbotron img').css({
-        'transform': 'translate(0px,' + wScroll / 4 + '%)'
+        'transform': 'translate(0px,' + wScroll / 3 + '%)'
     });
     $('.jumbotron h1').css({
         'transform': 'translate(0px,' + wScroll / 2 + '%)'

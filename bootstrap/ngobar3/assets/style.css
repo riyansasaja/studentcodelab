@@ -6,6 +6,17 @@ body {
     margin-bottom: 100px;
 }
 
+.jumbotron {
+    background-image: url('images/bg-jumbotron.jpg');
+    background-size: cover;
+    background-position: 0 -80px;
+    background-attachment: fixed;
+}
+
+.jumbotron img {
+    width: 150px;
+}
+
 
 hr {
     width: 250px;
